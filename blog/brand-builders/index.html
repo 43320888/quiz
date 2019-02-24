@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>Modern Brand Builders: Scout Lab</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  <meta property="fb:app_id" content="2188739244780428" />
+
+  <style>
+@charset "UTF-8";html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}blockquote,body,dd,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,legend,ol,p,pre,ul{margin:0;padding:0}li>ol,li>ul{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}address,blockquote,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,table,ul{margin-bottom:16px}dd,ol,ul{margin-left:16px}img[data-action=zoom]{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}.zoom-img,.zoom-img-wrap{position:relative;z-index:666;-webkit-transition:all .3s;transition:all .3s}img.zoom-img{cursor:pointer;cursor:-webkit-zoom-out;cursor:-moz-zoom-out}.zoom-overlay{z-index:420;background:#fff;position:fixed;top:0;left:0;right:0;bottom:0;pointer-events:none;filter:"alpha(opacity=0)";opacity:0;-webkit-transition:opacity .3s;transition:opacity .3s}.zoom-overlay-open .zoom-overlay{filter:"alpha(opacity=100)";opacity:1}.zoom-overlay-open,.zoom-overlay-transitioning{cursor:default}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;-webkit-transform:translateX(0);transform:translateX(0);-ms-transform:translate(.5px,-.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#08c}code[class*=language-],pre[class*=language-]{color:#000;background:0 0;text-shadow:0 1px #fff;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-] ::-moz-selection,code[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#a67f59;background:rgba(255,255,255,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}body{color:#222;font-size:20px;font-family:MaisonNeue,Helvetica,Arial,sans-serif;line-height:34px;background-color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}::-moz-selection{color:#fff;background-color:#f65d31}::selection{color:#fff;background-color:#f65d31}@font-face{font-family:Rubik;font-style:normal;font-weight:400;src:local("Rubik"),local("Rubik-Regular"),url(https://fonts.gstatic.com/s/rubik/v7/H-PGIsE3CA76bgvfUI8sM4DGDUGfDkXyfkzVDelzfFk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Rubik;font-style:normal;font-weight:400;src:local("Rubik"),local("Rubik-Regular"),url(https://fonts.gstatic.com/s/rubik/v7/yliIEUJv6vLJBV8IXYupkIDGDUGfDkXyfkzVDelzfFk.woff2) format("woff2");unicode-range:U+0590-05FF,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:Rubik;font-style:normal;font-weight:400;src:local("Rubik"),local("Rubik-Regular"),url(https://fonts.gstatic.com/s/rubik/v7/Vi2gYeiEKThJHNpaE3cq54DGDUGfDkXyfkzVDelzfFk.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Rubik;font-style:normal;font-weight:400;src:local("Rubik"),local("Rubik-Regular"),url(https://fonts.gstatic.com/s/rubik/v7/p_PvaTv0YzIEJlEVv30xK6CWcynf_cDxXwCLxiixG1c.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Rubik;font-style:normal;font-weight:500;src:local("Rubik Medium"),local("Rubik-Medium"),url(https://fonts.gstatic.com/s/rubik/v7/WdwM2J7q9PjwEDtfaHmmmxkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Rubik;font-style:normal;font-weight:500;src:local("Rubik Medium"),local("Rubik-Medium"),url(https://fonts.gstatic.com/s/rubik/v7/UVNnZWb9UilkxwgKrV-6TBkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0590-05FF,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:Rubik;font-style:normal;font-weight:500;src:local("Rubik Medium"),local("Rubik-Medium"),url(https://fonts.gstatic.com/s/rubik/v7/XwD9N0jIpRr71ymtU2S41BkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Rubik;font-style:normal;font-weight:500;src:local("Rubik Medium"),local("Rubik-Medium"),url(https://fonts.gstatic.com/s/rubik/v7/IUSlgBbgyuDQpy87mBOAc3YhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:Rubik;font-style:normal;font-weight:700;src:local("Rubik Bold"),local("Rubik-Bold"),url(https://fonts.gstatic.com/s/rubik/v7/YPNAXz8Lvdc_aVM_nwpD7RkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Rubik;font-style:normal;font-weight:700;src:local("Rubik Bold"),local("Rubik-Bold"),url(https://fonts.gstatic.com/s/rubik/v7/qM4Xdpgnd4UROLJsnasqaBkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0590-05FF,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:Rubik;font-style:normal;font-weight:700;src:local("Rubik Bold"),local("Rubik-Bold"),url(https://fonts.gstatic.com/s/rubik/v7/u7X1qIRpQ-sYqacI4EpdYxkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Rubik;font-style:normal;font-weight:700;src:local("Rubik Bold"),local("Rubik-Bold"),url(https://fonts.gstatic.com/s/rubik/v7/0hS39AKxpJlEXQF3mVPgrnYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;src:local("Playfair Display Regular"),local("PlayfairDisplay-Regular"),url(https://fonts.gstatic.com/s/playfairdisplay/v13/2NBgzUtEeyB-Xtpr9bm1CRw5vVFbIG7DatP53f3SWfE.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;src:local("Playfair Display Regular"),local("PlayfairDisplay-Regular"),url(https://fonts.gstatic.com/s/playfairdisplay/v13/2NBgzUtEeyB-Xtpr9bm1CaH_fTF-WHdxjXJZkfhNjc4.woff2) format("woff2");unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;src:local("Playfair Display Regular"),local("PlayfairDisplay-Regular"),url(https://fonts.gstatic.com/s/playfairdisplay/v13/2NBgzUtEeyB-Xtpr9bm1CSVudZg2I_9CBJalMPResNk.woff2) format("woff2");unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;src:local("Playfair Display Regular"),local("PlayfairDisplay-Regular"),url(https://fonts.gstatic.com/s/playfairdisplay/v13/2NBgzUtEeyB-Xtpr9bm1CRD8Ne_KjP89kA3_zOrHj8E.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}@font-face{font-family:MaisonNeue;src:url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneue-book.woff2) format("woff2"),url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneue-book.woff) format("woff");font-weight:400;font-style:normal}@font-face{font-family:MaisonNeue;src:url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneue-bold.woff2) format("woff2"),url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneue-bold.woff) format("woff");font-weight:700;font-style:normal}@font-face{font-family:MaisonNeue-Extended;src:url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneueextended-thin.woff2) format("woff2"),url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneueextended-thin.woff) format("woff");font-weight:200;font-style:normal}@font-face{font-family:MaisonNeue-Extended;src:url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneueextended-bold.woff2) format("woff2"),url(https://modern-fertility-staticfiles.s3.amazonaws.com/prod/fonts/maisonneueextended-bold.woff) format("woff");font-weight:700;font-style:normal}a{text-decoration:none;color:#64a7ea;-webkit-transition:.5s;transition:.5s}a:active,a:focus,a:hover{color:#83b9ee;text-decoration:none}img{display:block;max-width:100%;font-style:italic}hr{height:1px;margin:32px 0;border:0;background-color:#ecf0f1}h1,h2,h3,h4,h5,h6{font-weight:inherit;line-height:initial}h1{font-size:32px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}b,strong{font-weight:700}blockquote{padding-left:16px;margin:24px 0;border-left:4px solid #f65d31;font-family:MaisonNeue-Extended,serif;font-size:20px}pre{padding:32px}code,pre{overflow:auto;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;font-family:Courier,monospace;font-size:20px;background-color:#fbfafa}li code,p code{padding:4px 8px}pre[class*=language-]{padding:32px;margin:16px 0}code[class*=language-],pre[class*=language-]{white-space:pre-wrap;word-break:break-all;line-height:inherit}input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],select,textarea{width:100%;display:block;padding:16px;margin-bottom:16px;border:1px solid #dfe3e9;border-radius:0;outline:0;line-height:initial;background-color:#fff;font-size:20px;font-family:MaisonNeue,Helvetica,Arial,sans-serif;-webkit-transition:.5s;transition:.5s}input[type=color]:focus,input[type=date]:focus,input[type=datetime-local]:focus,input[type=datetime]:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,select:focus,textarea:focus{border-color:#f65d31}.o-grid{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0 auto;max-width:1200px}.o-grid:after{content:'';display:table;clear:both}.o-grid .o-grid{margin-right:-16px;margin-left:-16px;padding:0}.o-grid--full{max-width:100vw}.o-grid__col{padding-right:16px;padding-left:16px}@media (min-width:40em){.o-grid__col{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}}.o-grid__col--1-3-s{width:33.33333%}.o-grid__col--2-3-s{width:66.66667%}.o-grid__col--1-4-s{width:25%}.o-grid__col--2-4-s{width:50%}.o-grid__col--3-4-s{width:75%}.o-grid__col--4-4-s{width:100%}@media (min-width:40em){.o-grid__col--1-3-m{width:33.33333%}.o-grid__col--2-3-m{width:66.66667%}.o-grid__col--1-4-m{width:25%}.o-grid__col--2-4-m{width:50%}.o-grid__col--3-4-m{width:75%}.o-grid__col--4-4-m{width:100%}}@media (min-width:64em){.o-grid__col--1-3-l{width:33.33333%}.o-grid__col--2-3-l{width:66.66667%}.o-grid__col--1-4-l{width:25%}.o-grid__col--2-4-l{width:50%}.o-grid__col--3-4-l{width:75%}.o-grid__col--4-4-l{width:100%}}.o-grid__col--full{width:100%}.o-grid__col--center{margin:0 auto;-webkit-box-flex:initial;-ms-flex-positive:initial;flex-grow:initial}.o-grid__col--end{margin-left:auto}.c-off-canvas-container{display:-webkit-box;display:-ms-flexbox;display:flex;min-height:100vh;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.c-off-canvas-container .o-wrapper{-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}.o-plain-list{margin:0;padding:0;list-style:none}.c-header{padding:32px 0}@media (min-width:40em){.c-header{padding:48px 0}}.logo-header-container{display:-webkit-box;display:-ms-flexbox;display:flex}.header-cta{float:right;height:100%;display:none}.header-cta>.c-btn{-ms-flex-item-align:center;align-self:center}@media (min-width:40em){.header-cta{display:block}}.header-homepage-link{-ms-flex-item-align:center;align-self:center;text-transform:uppercase}.header-homepage-link>a{color:#818181}@media (max-width:39.99em){.header-homepage-link{display:none}}.o-quiz-bar{height:60px;background-color:#faf9f9;border-top:1px solid #262627;border-bottom:1px solid #262627;line-height:60px;font-size:16px;width:100%;margin-bottom:30px}.o-quiz-bar a{color:#262627}.o-quiz-bar a:hover{opacity:.75}.o-quiz-bar span{font-weight:400}@media (max-width:39.99em){.o-quiz-bar{margin-top:30px;margin-bottom:0}}.c-logo{margin:0 auto;text-align:center}@media (min-width:40em){.c-logo{margin-bottom:32px}}.c-logo__link{color:#f65d31;font-family:MaisonNeue-Extended,serif;font-size:24px;-webkit-transition:color .5s ease-in-out;transition:color .5s ease-in-out}@media (min-width:40em){.c-logo__link{font-size:40px}}.c-logo__link:active,.c-logo__link:focus,.c-logo__link:hover{color:#000}.c-logo__img{max-height:48px}@media (min-width:40em){.c-logo__img{margin:0 auto;max-height:80px}}@media (min-width:64em){.c-logo__img{max-height:80px}}@media (min-width:40em){.c-nav{position:relative;z-index:1;display:inline-block;line-height:1;background-color:#fff;padding:0 32px}.c-nav-wrap{text-align:center}.c-nav-wrap:after{content:'';position:absolute;height:1px;background-color:#ecf0f1;width:100%;top:50%;left:0}}.c-nav__item{font-size:14px;letter-spacing:2px;text-transform:uppercase}@media (min-width:40em){.c-nav__item{display:inline-block}.c-nav__item:not(:last-child){margin-right:16px}}@media (max-width:39.99em){.c-nav__item{display:block}}.c-nav__item--cta>a.c-nav__link{margin-bottom:16px;font-weight:700;color:#f65d31}@media (min-width:40em){.c-nav__item--cta{display:none}}.c-nav__link{display:block;-webkit-transition:.5s;transition:.5s}@media (max-width:39.99em){.c-nav__link{padding:4px 0}}.c-nav__link--current{color:#f65d31}.home-template .c-nav__link--current:not(:hover){color:#64a7ea}.c-nav__link:active,.c-nav__link:focus,.c-nav__link:hover{color:#83b9ee}.c-nav__link--description{margin-bottom:16px;color:#818181;pointer-events:none}@media (max-width:39.99em){.c-nav__link--description{display:none}}.c-nav__icon{vertical-align:middle}.c-search{position:fixed;top:0;right:0;bottom:0;left:0;padding-top:32px;background:#fff;z-index:-1;opacity:0;-webkit-transform:scale(.96);transform:scale(.96);-webkit-transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1);transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1);transition:transform 250ms cubic-bezier(.694,0,.335,1),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end;transition:transform 250ms cubic-bezier(.694,0,.335,1),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-end,-webkit-transform 250ms cubic-bezier(.694,0,.335,1)}@media (min-width:40em){.c-search{padding-top:64px}}.c-search.is-active{z-index:10;opacity:1;-webkit-transform:scale(1);transform:scale(1);-webkit-transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94);transition:opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94);transition:transform 250ms cubic-bezier(.8,0,.55,.94),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start;transition:transform 250ms cubic-bezier(.8,0,.55,.94),opacity 250ms cubic-bezier(.8,0,.55,.94),z-index 250ms step-start,-webkit-transform 250ms cubic-bezier(.8,0,.55,.94)}.c-search__form{position:relative}.c-search__icon{position:absolute;left:-8px;fill:#818181}@media (max-width:39.99em){.c-search__icon{width:32px}}@media (min-width:40em){.c-search__icon{top:8px}}.c-search__input[type=search]{padding:0;width:100%;outline:0;padding-left:32px;margin-bottom:16px;font-weight:300;font-size:28px;line-height:44px;border:0;border-bottom:1px solid #ecf0f1}.c-search__input[type=search]:focus{border-bottom-color:#ecf0f1}@media (min-width:40em){.c-search__input[type=search]{font-size:40px;line-height:68px;padding-left:48px}}.c-search__close{position:absolute;top:16px;right:16px;cursor:pointer;fill:#222;-webkit-transition:.5s;transition:.5s}@media (min-width:40em){.c-search__close{top:32px;right:32px}}.c-search__close:hover{fill:#818181;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.c-search-result{display:none;height:80vh;overflow:auto;white-space:normal;padding-right:32px}.c-search-result__head{padding-bottom:16px;margin-bottom:16px;color:#818181;font-size:20px;border-bottom:1px solid #ecf0f1}.c-search-result__item{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid #ecf0f1}.c-search-result__title{display:block}.c-search-result__date{color:#818181;font-size:12px;text-transform:uppercase;line-height:22px;letter-spacing:1px}.c-off-canvas-toggle{position:absolute;top:40px;left:16px;z-index:10;height:24px;width:24px;cursor:pointer}.c-off-canvas-toggle--close{right:16px;left:auto}@media (min-width:40em){.c-off-canvas-toggle{display:none}}.c-off-canvas-toggle__icon{position:absolute;left:0;height:1px;width:25px;background:#000;cursor:pointer}.c-off-canvas-toggle__icon:after,.c-off-canvas-toggle__icon:before{content:'';display:block;height:100%;background-color:inherit;-webkit-transition:.5s;transition:.5s}.c-off-canvas-toggle__icon:before{-webkit-transform:translateY(16px);transform:translateY(16px)}.c-off-canvas-toggle__icon:after{-webkit-transform:translateY(7px);transform:translateY(7px)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon{height:2px;background-color:transparent}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after,.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{position:relative;visibility:visible;background:#000}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:before{top:11px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.c-off-canvas-toggle--close .c-off-canvas-toggle__icon:after{top:9px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}@media (max-width:39.99em){.c-off-canvas-toggle--close{top:32px}}body,html{overflow-x:hidden}@media (min-width:40em){.c-off-canvas-content{position:relative}}@media (max-width:39.99em){.c-off-canvas-content{position:fixed;top:0;left:0;z-index:1;width:300px;height:100vh;overflow-y:auto;padding:32px 40px;background-color:#fff;-webkit-transform:translate3d(-300px,0,0);transform:translate3d(-300px,0,0)}}@media screen and (max-width:39.99em) and (-ms-high-contrast:active),(max-width:39.99em) and (-ms-high-contrast:none){.c-off-canvas-content.is-active{left:308px}}@media (max-width:39.99em){.c-off-canvas-container{-webkit-perspective:1000;-webkit-transition:-webkit-transform .5s cubic-bezier(.565,1.65,.765,.88);transition:-webkit-transform .5s cubic-bezier(.565,1.65,.765,.88);transition:transform .5s cubic-bezier(.565,1.65,.765,.88);transition:transform .5s cubic-bezier(.565,1.65,.765,.88),-webkit-transform .5s cubic-bezier(.565,1.65,.765,.88)}.c-off-canvas-container.is-active{-webkit-transform:translate3d(304px,0,0);transform:translate3d(304px,0,0)}.c-off-canvas-container.is-active:after{position:fixed;top:0;right:0;bottom:0;left:0;content:'';background-color:rgba(0,0,0,.2)}}.c-archive{padding:32px;margin-bottom:32px;background-color:#fbfafa;border:1px solid #ecf0f1}.c-archive__title{margin-bottom:0;font-size:20px}.c-archive__description{margin-top:8px;margin-bottom:0;font-size:14px;line-height:22px}.c-post-card{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:32px;overflow:hidden}.c-post-card-wrap{display:-webkit-box;display:-ms-flexbox;display:flex}.c-post-card__media{background-color:#fbfafa}.c-post-card__image{display:block;position:relative;background-repeat:no-repeat;background-position:center;background-size:cover;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.c-post-card__image.js-fadein{opacity:0}.c-post-card__image.is-inview{opacity:1}.c-post-card__image:before{-webkit-transition:.5s;transition:.5s;position:absolute;top:0;height:100%;width:100%;content:'';background-color:#000;opacity:0}.c-post-card__image:after{display:block;content:'';width:100%;padding-bottom:75%}.c-post-card__content{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.c-post-card__tags{float:left;padding-left:8px;margin-top:20px;margin-bottom:14px;border-left:2px solid #f65d31;line-height:1;font-size:12px;color:#818181;text-transform:uppercase;letter-spacing:1px}.c-post-card__tags a{text-transform:uppercase;color:#818181;margin-right:4px;margin-left:4px;font-family:MaisonNeue-Extended,serif}.c-post-card__tags a:first-child{margin-left:0}.c-post-card__tags a:active,.c-post-card__tags a:focus,.c-post-card__tags a:hover{color:#222}.c-post-card__share{float:right;position:relative;top:14px;right:-4px;opacity:0;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.c-post-card__share-icon{width:20px;height:20px;vertical-align:top}.c-post-card__title-link{border-bottom:1px solid transparent;-webkit-transition:border-bottom .5s ease-in-out;transition:border-bottom .5s ease-in-out}.c-post-card__title{clear:both;margin-bottom:14px;font-size:20px;font-weight:500;-webkit-transition:.5s;transition:.5s;font-family:MaisonNeue-Extended,serif;font-weight:700}.c-post-card__title>a{color:#262627}.c-post-card__title>a:active,.c-post-card__title>a:focus,.c-post-card__title>a:hover{color:#262627}.c-post-card__excerpt{display:none;margin-bottom:0;color:#818181;font-size:14px;line-height:22px}.c-post-card__meta{line-height:1;font-size:12px;color:#818181;text-transform:uppercase;letter-spacing:1px;font-family:MaisonNeue-Extended,serif}.c-post-card__author{display:inline-block}.c-post-card__author a{color:#818181}.c-post-card__author a:active,.c-post-card__author a:focus,.c-post-card__author a:hover{color:#222}.c-post-card__author:before{content:'/';display:inline-block;padding-left:4px;margin-right:8px}.c-post-card--featured__icon{position:absolute;bottom:16px;left:16px;fill:#fff;background-color:rgba(0,0,0,.05)}.c-post-card:active .c-post-card__image,.c-post-card:focus .c-post-card__image,.c-post-card:hover .c-post-card__image{-webkit-transform:scale(1.01);transform:scale(1.01)}.c-post-card:active .c-post-card__image:before,.c-post-card:focus .c-post-card__image:before,.c-post-card:hover .c-post-card__image:before{opacity:.1}.c-post-card:active .c-post-card__share,.c-post-card:focus .c-post-card__share,.c-post-card:hover .c-post-card__share{opacity:1}.c-post-card:active .c-post-card__title-link,.c-post-card:focus .c-post-card__title-link,.c-post-card:hover .c-post-card__title-link{border-bottom:1px solid #f65d31}@media (min-width:64em){.c-post-card--half .c-post-card__image:after{padding-bottom:118%}}@media (min-width:64em){.c-post-card--first .c-post-card__image:after{padding-bottom:56.25%}}@media (min-width:64em){.homepage-special .c-post-card .c-post-card__image:after{padding-bottom:75%}}.c-teaser{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-left:16px}@media (min-width:40em) and (max-width:63.99em){.c-teaser{display:block;padding-left:0}}.c-teaser:not(:last-child){padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid #ecf0f1}@media (min-width:40em) and (max-width:63.99em){.c-teaser:not(:last-child){padding-bottom:24px;margin-bottom:12px}}.c-teaser:before{counter-increment:widget;content:counter(widget) ". ";position:relative;left:-16px;font-size:20px;font-style:italic;font-family:MaisonNeue-Extended,serif;color:#818181}@media (min-width:40em) and (max-width:63.99em){.c-teaser:before{left:0}}.c-teaser__media{margin-left:16px;background-color:#fbfafa}@media (min-width:40em) and (max-width:63.99em){.c-teaser__media{margin-left:0}}.c-teaser__content{-webkit-box-flex:1;-ms-flex:1;flex:1}.c-teaser__image{display:block;width:64px;height:48px;background-repeat:no-repeat;background-position:center;background-size:cover;background-color:#fbfafa;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.c-teaser__image.js-fadein{opacity:0}.c-teaser__image.is-inview{opacity:1}@media (min-width:40em) and (max-width:63.99em){.c-teaser__image{width:100%;height:100%}.c-teaser__image:after{display:block;content:'';width:100%;padding-bottom:75%}}.c-teaser__title{margin-bottom:0;font-size:14px;font-weight:500}@media (min-width:40em) and (max-width:63.99em){.c-teaser__title{margin-bottom:8px}}.c-author-card{width:100%;padding:32px;margin-bottom:32px;background-color:#fbfafa;border:1px solid #ecf0f1}.c-author-card-wrap{display:-webkit-box;display:-ms-flexbox;display:flex}@media (max-width:39.99em){.c-author-card{text-align:center}}@media (min-width:40em){.c-author-card{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}@media (max-width:39.99em){.c-author-card__media{margin-bottom:16px}}@media (min-width:40em){.c-author-card__media{margin-right:32px}}@media (min-width:40em){.c-author-card__content{-webkit-box-flex:1;-ms-flex:1;flex:1}}.c-author-card__image{display:block;width:96px;height:96px;border-radius:100%}@media (max-width:39.99em){.c-author-card__image{margin:0 auto}}.c-author-card__title{margin-bottom:8px;font-size:20px}.c-author-card__bio{font-size:14px;line-height:22px}@media (min-width:40em){.c-author-card__bio{margin-bottom:0}}.c-author-card-links{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0;list-style:none}.c-author-card-links-item{font-size:12px;text-transform:uppercase;letter-spacing:1px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.c-author-card-links-item:not(:last-child){margin-right:4px}.c-author-card-links-icon{vertical-align:middle;-webkit-transition:.5s;transition:.5s}.c-author-card-links-icon:active,.c-author-card-links-icon:focus,.c-author-card-links-icon:hover{fill:#f65d31}.c-pagination{margin-top:32px;margin-bottom:32px}.c-post-hero__media{background-color:#fbfafa}@media (min-width:64em){.c-post-hero__media{margin-left:0;margin-right:-32px}}.c-post-hero__image{position:relative;background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#fbfafa;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.c-post-hero__image.js-fadein{opacity:0}.c-post-hero__image.is-inview{opacity:1}.c-post-hero__image:before{content:'';display:block;padding-bottom:56.25%}.c-post-hero__content{background-color:#fbfafa;border-style:solid;border-width:0 1px 1px 1px;border-color:#ecf0f1;padding:32px}@media (min-width:64em){.c-post-hero__content{padding:32px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:end;height:100%;border-width:1px;border-color:#ecf0f1 #ecf0f1 #ecf0f1 #fff}}.c-post-hero__date{font-size:12px;color:#818181;text-transform:uppercase;letter-spacing:1px}.c-post-hero__title{margin-bottom:0;font-family:MaisonNeue,Helvetica,Arial,sans-serif;font-size:24px}@media (min-width:40em){.c-post-hero__title{font-size:28px}}@media (min-width:64em){.c-post-hero__title{font-size:32px;margin-top:auto}}.c-post{padding-top:32px;margin-bottom:32px}.o-post-ad{display:none;padding-top:.5em}.o-post-ad img{pointer-events:none}@media (min-width:600px){.o-post-ad{padding-top:1em}}@media (max-width:39.99em){.c-content img{position:relative;left:50%;max-width:115%;-webkit-transform:translate(-50%);transform:translate(-50%)}}.c-content a:not(.c-btn){text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink}.c-content a:not(.c-btn):active,.c-content a:not(.c-btn):focus,.c-content a:not(.c-btn):hover{color:#83b9ee}.c-content h1,.c-content h2,.c-content h3,.c-content h4,.c-content h5,.c-content h6{font-family:MaisonNeue,Helvetica,Arial,sans-serif;font-weight:500}.c-content dd:not(:root:root),.c-content ol:not(:root:root),.c-content ul:not(:root:root){-webkit-padding-start:8px}.c-dropcap{margin-right:8px;color:#64a7ea}.c-share{display:-webkit-box;display:-ms-flexbox;display:flex}.c-share__item{-webkit-box-flex:1;-ms-flex:1;flex:1;text-align:center}.c-share__item:not(:last-child){border-right:4px solid #fff}.c-share__link{display:block;padding:4px;background-color:#fff;-webkit-transition:.5s;transition:.5s}.c-share__link:active,.c-share__link:focus,.c-share__link:hover{opacity:.8}.c-share__link--twitter{background-color:#1da1f2}.c-share__link--facebook{background-color:#3b5998}.c-share__link--pinterest{background-color:#bd081c}.c-share__icon{vertical-align:middle;fill:#fff}.c-author{width:100%;padding:32px;margin-bottom:32px;background-color:#fbfafa;border:1px solid #ecf0f1}@media (max-width:39.99em){.c-author{text-align:center}}@media (min-width:40em){.c-author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}@media (max-width:39.99em){.c-author__media{margin-bottom:16px}}@media (min-width:40em){.c-author__media{margin-right:32px}}@media (min-width:40em){.c-author__content{-webkit-box-flex:3;-ms-flex:3;flex:3;padding-right:32px;margin-right:32px;border-right:1px solid #fff}}.c-author__image{display:block;width:96px;height:96px;border-radius:100%}@media (max-width:39.99em){.c-author__image{margin:0 auto}}.c-author__title{margin-bottom:8px;font-size:20px}.c-author__bio{font-size:14px;line-height:22px}@media (min-width:40em){.c-author__bio{margin-bottom:0}}@media (min-width:40em){.c-author__links{-webkit-box-flex:1;-ms-flex:1;flex:1}}.c-author__links-item{display:inline-block;font-size:12px;text-transform:uppercase;letter-spacing:1px;line-height:22px}.c-author__links-icon{vertical-align:bottom;-webkit-transition:.5s;transition:.5s}.c-author__links-icon:active,.c-author__links-icon:focus,.c-author__links-icon:hover{fill:#f65d31}.fluid-width-video-wrapper,.twitter-tweet{margin-bottom:16px!important}.c-tags a{display:inline-block;padding:8px 20px;margin:0 8px 8px 0;font-size:14px;font-weight:400;font-family:MaisonNeue,Helvetica,Arial,sans-serif;line-height:22px;color:#818181;background-color:#fbfafa;-webkit-transition:.5s;transition:.5s}@media (max-width:39.99em){.c-tags a{margin-bottom:14px}}.c-tags a:active,.c-tags a:focus,.c-tags a:hover{color:#000;text-decoration:none}.c-tag-card{position:relative;margin-bottom:32px;background-color:#fbfafa}.c-tag-card__image{display:block;background-position:50%;background-repeat:no-repeat;background-size:cover;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.c-tag-card__image.js-fadein{opacity:0}.c-tag-card__image.is-inview{opacity:1}.c-tag-card__image:before{position:absolute;top:0;bottom:0;left:0;right:0;content:'';-webkit-transition:.5s;transition:.5s;background:-webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,.4)),color-stop(32%,transparent));background:linear-gradient(0deg,rgba(0,0,0,.4) 0,transparent 32%)}.c-tag-card__image:after{display:block;content:'';width:100%;padding-bottom:75%}.c-tag-card__title{position:absolute;bottom:0;left:0;right:0;margin-bottom:0;padding:16px;font-size:20px;font-weight:400;color:#fff}.c-tag-card:active .c-tag-card__image:before,.c-tag-card:focus .c-tag-card__image:before,.c-tag-card:hover .c-tag-card__image:before{background-color:rgba(0,0,0,.1)}.c-btn{display:inline-block;padding:16px 32px;border-radius:0;cursor:pointer;-webkit-transition:250ms;transition:250ms;text-align:center;vertical-align:middle;white-space:nowrap;outline:0;line-height:initial;border:none;background-color:#fff;font-size:20px;font-family:MaisonNeue,Helvetica,Arial,sans-serif;border:1px solid #000;font-size:14px;letter-spacing:1px;color:#000}.c-btn:active,.c-btn:focus,.c-btn:hover{color:#fff;border-color:#f65d31;text-decoration:none;background-color:#000;border-color:#fff}.c-btn--active{color:#fff;border-color:#f65d31;text-decoration:none;background-color:#000;border-color:#fff}.c-btn--active:active,.c-btn--active:focus,.c-btn--active:hover{opacity:.9}.c-btn--disabled{opacity:.5;cursor:not-allowed;pointer-events:none}.c-btn--disabled.success{color:green;font-weight:700}.c-btn--full{width:100%}.c-btn--small{padding:12px 24px}.c-btn--loading{position:relative;padding-right:48px}.c-btn--loading:after{position:absolute;top:16px;right:16px;content:'';display:block;height:16px;width:16px;border:2px solid #fff;border-radius:100%;border-right-color:transparent;border-top-color:transparent;-webkit-animation:spinAround .5s infinite linear;animation:spinAround .5s infinite linear}.c-btn.cta{font-size:14px;height:47px;width:222px;line-height:95%;padding-right:0;padding-left:0;background-color:#aebeec;border:1px solid #272726;color:#272726;font-weight:700;text-transform:uppercase;position:fixed;right:0;border-right:0;z-index:1}.c-subscribe-form{padding:32px;background-color:#fff;border:1px solid #ecf0f1}@media (min-width:64em){.c-subscribe-form{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.c-subscribe-form .form-group{-webkit-box-flex:8;-ms-flex:8;flex:8;margin-right:16px}.c-subscribe-form__btn{-webkit-box-flex:2;-ms-flex:2;flex:2}}.c-subscribe-form__input[type=email]{padding-left:0;border:0;border-bottom:1px solid #ecf0f1}@media (min-width:64em){.c-subscribe-form__input[type=email]{margin:0}}.index-feature{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;padding-bottom:32px}.index-feature .c-post-card{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.index-feature .c-post-card__title{margin-bottom:32px}.index-feature .c-post-card__title a.c-post-card__title-link{color:#818181}.index-feature .c-post-card__title a.c-post-card__title-link:active,.index-feature .c-post-card__title a.c-post-card__title-link:focus,.index-feature .c-post-card__title a.c-post-card__title-link:hover{text-decoration:none}.index-feature .c-widget.c-widget-feature-center{display:-webkit-box;display:-ms-flexbox;display:flex}.index-feature .c-widget.c-widget-feature-center .c-widget-inner{-ms-flex-item-align:center;align-self:center}.index-feature .c-widget{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.index-feature .c-widget:first-of-type{border-top:1px solid #ecf0f1}.c-widget.newsletter-widget{padding:16px 32px}.c-widget.newsletter-widget p{margin-bottom:8px}.newsletter-signup{border-top:1px solid #ecf0f1;padding-top:16px;margin-top:16px}.newsletter-signup input{margin-bottom:0}.newsletter-signup input[type=submit]{margin-top:16px}.c-sidebar{margin-bottom:32px}.c-widget{padding:32px;border-left:1px solid #ecf0f1;border-right:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1;counter-reset:widget}@media (max-width:39.99em){.c-widget{padding:32px;border-right:1px solid #ecf0f1}}@media (max-width:39.99em){.c-widget:first-child{border-top:1px solid #ecf0f1}}.c-widget__title{padding-left:8px;margin-bottom:28px;line-height:1;letter-spacing:2px;border-left:2px solid #f65d31;font-size:14px;text-transform:uppercase}.c-widget-author{text-align:center}.c-widget-author__media{margin-bottom:16px}.c-widget-author__image{margin:0 auto;display:block;width:64px;height:64px;border-radius:100%;-o-object-fit:cover;object-fit:cover}.c-widget-author__title{margin-bottom:8px;font-size:20px}.c-widget-author__bio{color:#818181;margin-bottom:0;font-size:14px;line-height:22px}.c-widget-instagram{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.c-widget-instagram__item{-webkit-box-flex:1;-ms-flex:1 33%;flex:1 33%;border:1px solid #fff}.c-related{padding:32px 0 0;background-color:#fbfafa;margin-bottom:-32px}@media (min-width:64em){.c-related{padding:48px 0 32px 0}}.c-related__title{padding-bottom:0;margin-bottom:32px;text-align:center;font-size:20px;font-family:MaisonNeue-Extended,serif}@media (min-width:64em){.c-related__title{margin-bottom:48px;font-size:24px}}.c-related .c-post-card{padding:16px;background-color:#fff;border:1px solid #ecf0f1}.c-social-icons{text-align:center}@media (min-width:40em){.c-social-icons{text-align:right}}.c-social-icons li{display:inline-block}.c-social-icons a{display:-webkit-box;display:-ms-flexbox;display:flex}.c-footer{margin-top:32px;padding:32px 0 32px 0;border-top:2px solid #fff;background-color:#fbfafa}@media (min-width:64em){.c-footer{padding:80px 0 16px 0}}.c-footer__bottom{margin-top:16px;padding-top:32px;border-top:1px solid #ecf0f1}.c-footer__copyright{color:#818181}.c-footer__copyright a{color:#818181}.c-footer__copyright a:active,.c-footer__copyright a:focus,.c-footer__copyright a:hover{color:#f65d31}@media (max-width:39.99em){.c-footer__copyright{text-align:center;margin-bottom:8px}}.c-footer-list{margin-bottom:16px}.c-footer-list li{display:block;margin:0;letter-spacing:0;text-transform:capitalize}.c-footer-list a{display:block;padding:0;font-size:14px}.c-footer-list a:active,.c-footer-list a:focus,.c-footer-list a:hover{color:#f65d31}.c-footer-list a:active .icon,.c-footer-list a:focus .icon,.c-footer-list a:hover .icon{fill:#f65d31}.c-footer-list .icon{fill:#818181;vertical-align:middle;-webkit-transition:.5s;transition:.5s}.u-hidden{display:none}.u-hidden-visually{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.u-font-serif{font-family:MaisonNeue-Extended,serif}.u-font-sans-serif{font-family:MaisonNeue,Helvetica,Arial,sans-serif}.u-font-medium{font-size:20px;line-height:31px}.u-font-small{font-size:14px;line-height:22px}.u-font-tiny{font-size:12px;line-height:19px}.u-font-light{font-weight:300}.u-font-regular{font-weight:400}.u-font-medium{font-weight:500}.u-font-bold{font-weight:700}.u-text-left{text-align:left}.u-text-right{text-align:right}.u-text-center{text-align:center}.u-text-justify{text-align:justify}.u-inline{display:inline}.u-block{display:block}.u-inline-block{display:inline-block}.u-left{float:left}.u-right{float:right}.u-clearfix:after{content:'';display:table;clear:both}
+</style>
+  <script>
+    var pagination_next_page_number       = '',
+        pagination_available_pages_number = '';
+  </script>
+
+  <link rel="shortcut icon" href="/blog/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://modernfertility.com/blog/brand-builders/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="https://modernfertility.com/blog/brand-builders/amp/" />
+    
+    <meta property="og:site_name" content="Modern Fertility Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Modern Brand Builders: Scout Lab" />
+    <meta property="og:description" content="*Kaitlyn, Michelle, and Willow are the founders of Scout Lab–a brand design firm focused on building brands that cut through the noise. The trio is bringing 35+ years of brand experience at Airbnb, Levi’s, Fitmob, and more to give brands the spark they need to connect with a" />
+    <meta property="og:url" content="https://modernfertility.com/blog/brand-builders/" />
+    <meta property="og:image" content="https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/IMG_0105--2--1.jpg" />
+    <meta property="article:published_time" content="2018-02-22T00:43:00.000Z" />
+    <meta property="article:modified_time" content="2018-05-17T23:09:33.000Z" />
+    <meta property="article:tag" content="Modern Women" />
+    <meta property="article:tag" content="Entrepreneurship" />
+    
+    <meta property="article:publisher" content="https://www.facebook.com/modernfertility" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Modern Brand Builders: Scout Lab" />
+    <meta name="twitter:description" content="*Kaitlyn, Michelle, and Willow are the founders of Scout Lab–a brand design firm focused on building brands that cut through the noise. The trio is bringing 35+ years of brand experience at Airbnb, Levi’s, Fitmob, and more to give brands the spark they need to connect with a" />
+    <meta name="twitter:url" content="https://modernfertility.com/blog/brand-builders/" />
+    <meta name="twitter:image" content="https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/IMG_0105--2--1.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Afton + Carly" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Modern Women, Entrepreneurship" />
+    <meta name="twitter:site" content="@modernfertility" />
+    <meta property="og:image:width" content="1242" />
+    <meta property="og:image:height" content="909" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Modern Fertility Blog",
+        "logo": "https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/slack-imgs.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Afton + Carly",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/closeup2.jpg",
+            "width": 3143,
+            "height": 2056
+        },
+        "url": "https://modernfertility.com/blog/author/afton/",
+        "sameAs": []
+    },
+    "headline": "Modern Brand Builders: Scout Lab",
+    "url": "https://modernfertility.com/blog/brand-builders/",
+    "datePublished": "2018-02-22T00:43:00.000Z",
+    "dateModified": "2018-05-17T23:09:33.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/IMG_0105--2--1.jpg",
+        "width": 1242,
+        "height": 909
+    },
+    "keywords": "Modern Women, Entrepreneurship",
+    "description": "*Kaitlyn, Michelle, and Willow are the founders of Scout Lab–a brand design firm focused on building brands that cut through the noise. The trio is bringing 35+ years of brand experience at Airbnb, Levi’s, Fitmob, and more to give brands the spark they need to connect with a",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://modernfertility.com/blog/"
+    }
+}
+    </script>
+
+    <script type="text/javascript" src="/blog/public/ghost-sdk.min.js?v=b8f192159b"></script>
+<script type="text/javascript">
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "962794c85062"
+});
+</script>
+    <meta name="generator" content="Ghost 1.21" />
+    <link rel="alternate" type="application/rss+xml" title="Modern Fertility Blog" href="https://modernfertility.com/blog/rss/" />
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5BR7K2J');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102805837-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-102805837-1', { 'optimize_id': 'GTM-M348BQM'});
+</script>
+</head>
+<body class='post-template tag-modern-women tag-entrepreneurship'>
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    <header class='c-header'>
+
+  <div class='o-grid'>
+
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--4-4-m logo-header-container'>
+      <div class="header-homepage-link">
+          <a href="https://modernfertility.com">modernfertility.com</a>
+      </div>
+
+      <div class='c-logo'>
+          <a href="https://modernfertility.com/blog">
+            <img class='c-logo__img' src='https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/slack-imgs.png' alt='Modern Fertility Blog'>
+          </a>
+      </div>
+      
+      <div class='header-cta'>
+        <a href="https://modernfertility.com" class="c-btn cta">Shop the test</a>
+      </div>
+    </div>
+  </div>
+
+  <div class='o-quiz-bar'>
+    <a href="https://modernfertility.com/quiz/">
+      <div class='o-grid'>
+        <div class='o-grid__col'>
+          <strong>Want kids one day?</strong> Take the quiz
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--1-4-s o-grid__col--3-4-l o-grid__col--full'>
+      <div class='c-off-canvas-content js-off-canvas-content'>
+        <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+          <span class='c-off-canvas-toggle__icon'></span>
+        </label>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-l o-grid__col--full'>
+            <nav class='c-nav-wrap'>
+              <ul class='c-nav o-plain-list'>
+                <li class='c-nav__item c-nav__item--cta'>
+  <a href='https://modernfertility.com' class='c-nav__link'>Shop the test</a>
+</li>
+
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/fertility/' class='c-nav__link '>Fertility</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/birth-control/' class='c-nav__link '>Birth control</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/hormones/' class='c-nav__link '>Hormone testing</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/health/' class='c-nav__link '>Reproductive health</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/modern-women/' class='c-nav__link '>Modern Women</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/modern-fertility/' class='c-nav__link '>Modern Fertility</a>
+  </li>
+
+                <li class='c-nav__item'>
+                  <a class='toggle-search-button js-search-toggle' href='#' aria-label='Search'>
+                    <span class='c-nav__icon' data-icon='ei-search' data-size='s'></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+        <span class='c-off-canvas-toggle__icon'></span>
+      </label>
+    </div>
+
+  </div>
+
+</header>
+
+<div class='c-search js-search'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center'>
+      <form class='c-search__form'>
+        <span class='c-search__icon' data-icon='ei-search' data-size='m'></span>
+        <label for='search-field' class='u-hidden-visually'>Search</label>
+        <input id='search-field' type='search' class='c-search__input js-search-input' placeholder='Type to Search'>
+      </form>
+    </div>
+  </div>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center'>
+      <div class='c-search-result js-search-result'></div>
+    </div>
+  </div>
+
+  <div data-icon='ei-close' data-size='s' class='c-search__close js-search-close'></div>
+</div>
+    
+
+<div class='c-post-hero'>
+  <div class='o-grid _o-grid--full'>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--4-4-m o-grid__col--2-3-l'>
+      <div class='c-post-hero__media'>
+        <div class='c-post-hero__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/IMG_0105--2--1.jpg")'></div>
+      </div>
+    </div>
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--1-3-m'>
+      <div class='c-post-hero__content'>
+        <h1 class='c-post-hero__title'>Modern Brand Builders: Scout Lab</h1>
+          <time class='c-post-hero__date' datetime='2018-02-21'>21.Feb.2018</time>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--2-3-m'>
+      <article class='c-post tag-modern-women tag-entrepreneurship'>
+
+        <div class='c-content'>
+          <div class="kg-card-markdown"><p>*Kaitlyn, Michelle, and Willow are the founders of Scout Lab–a brand design firm focused on building brands that cut through the noise. The trio is bringing 35+ years of brand experience at Airbnb, Levi’s, Fitmob, and more to give brands the spark they need to connect with a modern audience.</p>
+<h1 id="tellusabitaboutyourstoryhowdidyoudecideyouwantedtoquityourjobsandbuildscoutlab">Tell us a bit about your story. How did you decide you wanted to quit your jobs and build Scout lab?</h1>
+<p><strong>MN:</strong> The company was originally a side hustle. Kaitlyn and I had been consulting for awhile with a few of our friends–and then–we met Willow. Willow was working on her own projects on the side and we decided to come together!</p>
+<p><strong>KB:</strong> We started working on pitch decks for Scout Lab, which felt so exciting. Not too long after, there was this magical moment where Michelle, Willow and I were all looking for the next step in our career. I realized if we didn’t go full-force into Scout Lab, someone might get a full-time gig before we could get off the ground. For me, that’s when Scout Lab transformed from a side hustle, to a bonafide main hustle. We landed our first client and the rest is history.</p>
+<h1 id="whatisyourfavoritepartofwhatyoudo">What is your favorite part of what you do?</h1>
+<h3 id=""></h3>
+<p><strong>WH</strong>: My favorite part of what I do is working alongside smart, ambitious people on solving problems we care about. We work with cutting edge companies that are changing the game in their respective fields–be it in agriculture, health and wellness,or fashion.  Our work keeps us inspired and gets us up in the morning. The digital landscape is also always changing so there is always something new to learn and implement– which we love.</p>
+<h1 id="howhaveyoubeenabletoliftotherwomenupcanyoutalkabitabouthowyouveseenthebenefitofwomensupportingwomen">How have you been able to lift other women up? Can you talk a bit about how you’ve seen the benefit of women supporting women?</h1>
+<p><strong>WH:</strong> It fortunately comes very naturally to us, so we started by supporting one another. In the beginning, it was a function of finding female entrepreneurs who had a vision and supporting them. Now it’s a function of finding companies, big and small, that embrace diversity and setting them apart from the crowd.</p>
+<p><strong>KB:</strong> We constantly have our eye out for badass female entrepreneurs. One of our first clients is an amazing hatmaker who we met out one night shortly after we incorporated. She was talented, incredibly sharp, had an amazing vision for her retail business and was essentially looking for an enabler to tell her, “you should do this.” We ended up onboarding her as one of our first clients. Fast forward six months, and she has now launched her website, <a href="https://teressafoglia.com/">Teressa Foglia</a> and her first retail location in New York.</p>
+<p><strong>MN:</strong> We also work on building personal brands for female executives. It’s a service we’ve created that we believe can really help empower individuals to develop and own their voice.</p>
+<h1 id="whatwassomethingmeatyyouhadtoovercometogettowhereyouare">What was something meaty you had to overcome to get to where you are?</h1>
+<p><strong>KB:</strong> Knowing where to start! There’s this terrifying moment when starting a service business, which comes directly after you decide to jump into the deep-end and just before you have a defensible client portfolio. You’re left pushing forward on hope, a vision and a lot of coffee.</p>
+<p><strong>WH:</strong> We endlessly sourced our network and did cold outreach. You have to have blind faith that your experience, intuition and vision will resonate with others. Thankfully for us, it has. Getting over that initial fear of failure can stop a lot of people from ever starting in the first place. We’re lucky we’ve had each other to inspire us through those times.</p>
+<h1 id="wereallaboutinformationherecanyouthinkofatimeyoulearnedsomethingthatmadeyoufeelmorepowerful">We're all about information here. Can you think of a time you learned something that made you feel more powerful?</h1>
+<h1 id=""></h1>
+<p><strong>KB:</strong> Women need to understand the massive economic power they have in our global economy. <a href="https://www.forbes.com/sites/bridgetbrennan/2015/01/21/top-10-things-everyone-should-know-about-women-consumers/#5fb74c126a8b">https://www.forbes.com/sites/bridgetbrennan/2015/01/21/top-10-things-everyone-should-know-about-women-consumers/#5fb74c126a8b</a>. However, we’re the first to be ignored when it comes to brand creative or product design. It makes total sense when you learn that 11% of creative directors are female. This is a major issue (and an opportunity!) that we’re tackling head on.</p>
+<h1 id="howdoyoustaysanewhataresomeofyourfavoritehabitsforwellness">How do you stay sane? What are some of your favorite habits for wellness?</h1>
+<p><strong>MN:</strong> I have a two year old pug who is also a certified Emotional Support Animal (ESA). I’ve suffered from generalized anxiety, insomnia, and panic disorder most of my adult life and finally my doctor added a dog to my regime in addition to pilates, yoga, a healthy diet, and medication. Taking my dog on walks is a good reminder to slow down and take care of myself–especially when we get busy. There have been times for all of us when our self care began to slip! Now we always make time to exercise and get proper sleep.</p>
+<h1 id="whatisthebestpieceofadviceyouveevergotten">What is the best piece of advice you've ever gotten?</h1>
+<h1 id=""></h1>
+<p><strong>MN:</strong> “It’s better to beg for forgiveness than ask for permission”. I think a lot of women can relate to this. It basically means take the plunge, don’t be afraid to fail, and if you do fail you can ask for forgiveness later.</p>
+<blockquote>
+<p>Modern women are no longer sitting around waiting for someone to tell them what they can and cannot do.</p>
+</blockquote>
+<h1 id="whatdoesbeingamodernwomanmeantoyou">What does being a Modern woman mean to you?</h1>
+<h1 id=""></h1>
+<p><strong>KB:</strong> Being a modern woman means owning who you are unabashedly. If you’re loud, be loud. If you’re soft, be soft. If you’re creative, be creative. Now more than ever, the world needs examples of women who walk all different paths in life. We’re doctors, we’re politicians, we’re entrepreneurs and we’re housewives. We need to celebrate all paths of womanhood equally. Being a modern woman simply means you call the shots in your life, regardless of external gendered expectations.</p>
+<h1 id="howdoyouthinkaboutfertilityinthecontextofyourlifedoyouthinkthatwillshift">How do you think about fertility in the context of your life? Do you think that will shift?</h1>
+<p><strong>WH:</strong> Being young female entrepreneurs, we are all deeply invested in our careers. Studies have shown that women’s increasing access to opportunity in education and the workforce often means having children later in life. Regardless we don’t believe you need to want children to want access to information on your fertility or your health. Women should have the ability to know what that means for them. Fertility is commonly a taboo topic, but we don’t believe it should be that way. From a medical perspective it is such an opaque subject and it  can be hard to know how to navigate it (until now thanks to you guys!). We want women to have access to information in all aspects of their lives and fertility should be at the top of that list.</p>
+<p><strong>MN:</strong> We believe that with access to fertility information women can further understand their bodies, and therefore make the best decisions for themselves. This applies to all kinds of women, not just the ones who want to start a family.</p>
+</div>
+        </div>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--3-4-l'>
+            <div class='c-tags'>
+              <a href="/blog/tag/modern-women/">Modern Women</a><a href="/blog/tag/entrepreneurship/">Entrepreneurship</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://modernfertility.com/timeline/" class='o-post-ad blog-ad__timeline'>
+          <img src="https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/general/blog-ad__timeline.jpg" />
+        </a>
+
+        <a href="https://modernfertility.com/quiz/" class='o-post-ad blog-ad__quiz'>
+          <img src="https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/general/blog-ad__quiz.jpg" />
+        </a>
+
+        <a href="https://modernfertility.com/science/" class='o-post-ad blog-ad__science'>
+          <img src="https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/general/blog-ad__science.jpg" />
+        </a>
+
+        <hr>
+
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=2188739244780428&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="https://modernfertility.com/blog/brand-builders/" data-width="100%" data-numposts="5" style="max-width: 540px;"></div>
+      </article>
+
+    </div>
+
+
+    <div class='o-grid__col o-grid__col--1-3-m'>
+      <div class='c-sidebar'>
+
+      <div class='c-widget c-widget-author'>
+
+        <div class='c-widget-author__media'>
+          <a href='/blog/author/afton/'>
+            <img class='c-widget-author__image' src='https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/02/closeup2.jpg' alt='Afton + Carly'>
+          </a>
+        </div>
+
+      <div class='c-widget-author__content'>
+        <h3 class='c-widget-author__title'>
+          <a href='/blog/author/afton/'>Afton + Carly</a>
+        </h3>
+          <p class='c-widget-author__bio'>We&#x27;re the co-founders of Modern Fertility–working on making fertility information more accessible for women everywhere–and we&#x27;re so glad you&#x27;re here.</p>
+      </div>
+
+    </div>
+
+  <div class='c-widget newsletter-widget'>
+  <div class="addthis_inline_follow_toolbox"></div>
+  <form class="newsletter-signup">
+    <p>Love women’s health as much as we do? Sign up for updates.</p>
+    <input type="text" name="email" placeholder="email@email.com" />
+    <input class="c-btn c-btn--full u-hidden" type="submit" value="Submit">
+  </form>
+</div>
+    <div class='c-widget'>
+    <h5 class='c-widget__title'>Recent Stories</h5>
+
+      <a href='/blog/age/' class='c-teaser'>
+        <div class='c-teaser__content'>
+          <h3 class='c-teaser__title'>How Does Fertility Really Change with Age?</h3>
+        </div>
+          <div class='c-teaser__media'>
+            <div class='c-teaser__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/02/Fertility-with-age---Blog.jpg")' aria-label='How Does Fertility Really Change with Age?'></div>
+          </div>
+      </a>
+
+      <a href='/blog/ovulation-2/' class='c-teaser'>
+        <div class='c-teaser__content'>
+          <h3 class='c-teaser__title'>Ovulation 101</h3>
+        </div>
+          <div class='c-teaser__media'>
+            <div class='c-teaser__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/02/Ovulation---Blog.jpg")' aria-label='Ovulation 101'></div>
+          </div>
+      </a>
+
+      <a href='/blog/partner/' class='c-teaser'>
+        <div class='c-teaser__content'>
+          <h3 class='c-teaser__title'>How I Talked to My Partner About My Modern Fertility Test Results</h3>
+        </div>
+          <div class='c-teaser__media'>
+            <div class='c-teaser__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/02/Talking-Fertility---Blog.jpg")' aria-label='How I Talked to My Partner About My Modern Fertility Test Results'></div>
+          </div>
+      </a>
+
+      <a href='/blog/amh-2/' class='c-teaser'>
+        <div class='c-teaser__content'>
+          <h3 class='c-teaser__title'>The 411 on AMH</h3>
+        </div>
+          <div class='c-teaser__media'>
+            <div class='c-teaser__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/02/AMH-411---Blog.jpg")' aria-label='The 411 on AMH'></div>
+          </div>
+      </a>
+
+      <a href='/blog/own-advocate/' class='c-teaser'>
+        <div class='c-teaser__content'>
+          <h3 class='c-teaser__title'>Six Easy (or not so easy) Ways to be Your Own Advocate</h3>
+        </div>
+          <div class='c-teaser__media'>
+            <div class='c-teaser__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/02/How-to-advocate---Blog.jpg")' aria-label='Six Easy (or not so easy) Ways to be Your Own Advocate'></div>
+          </div>
+      </a>
+
+  </div>
+
+  <div class='c-widget c-widget-feature-center'>
+  <div class='c-widget-inner'>
+      <h3 class='c-widget__title'>Fertility Unfiltered</h3>
+
+    <div id='instafeed' class='c-widget-instagram'></div>
+  </div>
+</div>
+</div>    </div>
+  </div>
+</div>
+
+<!--
+  Get related posts based on tags
+  https://themes.ghost.org/docs/recent-featured-sidebar#extra-special-sauce-related-posts
+ -->
+
+  <div class='c-related'>
+    <div class='o-grid'>
+      <div class='o-grid__col o-grid__col--full'>
+        <h5 class='c-related__title'>More Good Reads</h5>
+      </div>
+          
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-post-card-wrap js-post-card-wrap
+  
+  
+  
+  '>
+
+  <div class='c-post-card '>
+    <div class='c-post-card__media'>
+      <a href='/blog/estrella-jaramillo/' class='c-post-card__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/10/modern-entrepreneur-blog.png")' aria-label='Modern Woman: Estrella Jaramillo'>
+      </a>
+    </div>
+
+    <div class='c-post-card__content'>
+        <div class='c-post-card__tags'>
+          <a href="/blog/tag/modern-women/">Modern Women</a>
+        </div>
+
+      <h3 class='c-post-card__title'>
+        <a href='/blog/estrella-jaramillo/' class='c-post-card__title-link'>
+          Modern Woman: Estrella Jaramillo
+        </a>
+      </h3>
+
+      <div class='c-post-card__meta'>
+        <time class='c-post-card__date' datetime='2018-07-25' title='25 July 2018'>25.Jul.2018</time>
+        <div class='c-post-card__author'><a href="/blog/author/arielle/">Arielle Egozi</a></div>
+      </div>
+    </div>
+  </div>
+
+</div>    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-post-card-wrap js-post-card-wrap
+  
+  
+  
+  '>
+
+  <div class='c-post-card '>
+    <div class='c-post-card__media'>
+      <a href='/blog/maude-women/' class='c-post-card__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2019/01/ModernWomen---Maude---Blog.jpg")' aria-label='Maude Women'>
+      </a>
+    </div>
+
+    <div class='c-post-card__content'>
+        <div class='c-post-card__tags'>
+          <a href="/blog/tag/modern-women/">Modern Women</a>
+        </div>
+
+      <h3 class='c-post-card__title'>
+        <a href='/blog/maude-women/' class='c-post-card__title-link'>
+          Maude Women
+        </a>
+      </h3>
+
+      <div class='c-post-card__meta'>
+        <time class='c-post-card__date' datetime='2019-01-22' title='22 January 2019'>22.Jan.2019</time>
+        <div class='c-post-card__author'><a href="/blog/author/chanel/">Chanel Dubofsky </a></div>
+      </div>
+    </div>
+  </div>
+
+</div>    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-post-card-wrap js-post-card-wrap
+  
+  
+  
+  '>
+
+  <div class='c-post-card '>
+    <div class='c-post-card__media'>
+      <a href='/blog/suzanne-sinatra/' class='c-post-card__image js-fadein' style='background-image: url("https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/ghost-prod/2018/11/ModernEntrepreneur---SuzanneSinatra---Blog.png")' aria-label='Modern Woman: Suzanne Sinatra'>
+      </a>
+    </div>
+
+    <div class='c-post-card__content'>
+        <div class='c-post-card__tags'>
+          <a href="/blog/tag/modern-women/">Modern Women</a>
+        </div>
+
+      <h3 class='c-post-card__title'>
+        <a href='/blog/suzanne-sinatra/' class='c-post-card__title-link'>
+          Modern Woman: Suzanne Sinatra
+        </a>
+      </h3>
+
+      <div class='c-post-card__meta'>
+        <time class='c-post-card__date' datetime='2018-11-01' title='01 November 2018'>01.Nov.2018</time>
+        <div class='c-post-card__author'><a href="/blog/author/arielle/">Arielle Egozi</a></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+    <footer class='c-footer'>
+  <div class='o-grid'>
+    
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m   o-grid__col--1-3-l '>
+      <ul class='c-footer-list o-plain-list'>
+        <li class='c-nav__item c-nav__item--cta'>
+  <a href='https://modernfertility.com' class='c-nav__link'>Shop the test</a>
+</li>
+
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/fertility/' class='c-nav__link '>Fertility</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/birth-control/' class='c-nav__link '>Birth control</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/hormones/' class='c-nav__link '>Hormone testing</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/health/' class='c-nav__link '>Reproductive health</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/modern-women/' class='c-nav__link '>Modern Women</a>
+  </li>
+  <li class='c-nav__item'>
+    <a href='https://modernfertility.com/blog/tag/modern-fertility/' class='c-nav__link '>Modern Fertility</a>
+  </li>
+
+      </ul>
+    </div>
+
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-footer__bottom'>
+        <div class='o-grid'>
+
+          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
+            <div class='u-font-tiny c-footer__copyright'>
+              &copy; 2019 Modern Fertility Blog
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+    
+  </div>
+
+  <script src='/blog/assets/js/app.min.js?v=b8f192159b'></script>
+  <script src='/blog/assets/js/instagram.js?v=b8f192159b'></script>
+  
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a8363ab2048bbe3"></script>
+</body>
+</html>
